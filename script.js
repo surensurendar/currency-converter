@@ -20,7 +20,7 @@ function displaydropdown(res){
     }
 }
 
-btn.addEventListener('click',()=>{
+btn.addEventListener()('click',()=>{
     let curr1 = select[0].value
     let curr2 = select[1].value
     let inputVal = input.value
