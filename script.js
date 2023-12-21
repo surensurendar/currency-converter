@@ -20,7 +20,7 @@ function displaydropdown(res){
     }
 }
 
-btn.addEventListener()('click',()=>{
+btn.addEventListener('click',()=>{
     let curr1 = select[0].value
     let curr2 = select[1].value
     let inputVal = input.value
@@ -31,4 +31,11 @@ btn.addEventListener()('click',()=>{
   });
 
 
-function convert(){}
+function convert(curr1,curr2,inputVal){
+    const host = 'api.frankfurter.app';
+    fetch(`https://${host}/latest?amount=${inputVal}&from=${curr1}&to=${curr2}`)
+    .then(resp => resp.json())
+    .then((data) => {
+    document.getElementById("result").value=Object.entries(data.rates)[0][1]
+  });
+}

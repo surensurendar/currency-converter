@@ -2,7 +2,7 @@
  html,
 body{
    font-family: 'Poppins', sans-serif;
-   background-color: #b50027;
+   /* background-color: #b50027; */
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -18,17 +18,21 @@ body{
   .container{
     margin-top: 40px;
     margin-bottom: 300px;
-    background-color:#ffffff;
+    background-color:#b50027;
     padding: 10px 24px;
     border-radius: 20px;
     width: 490px;
+    
   }
   
   h1{
-    color:#b50027;
+    color:#ffffff;
     text-align: center;
     margin-bottom: 0.5em;
     font-family: sans-serif;
+    text-decoration: underline;
+    
+
   }
   .container .box{
     width: 100%;
@@ -39,7 +43,7 @@ body{
   }
   
   select{
-    width: 95%;
+    width: 80%;
     height: 40px;
     font-size: 1.2em;
     cursor: pointer;
@@ -47,6 +51,7 @@ body{
     outline: none;
     color: black;
     margin: 0.2em 0;
+    margin-left: 20px;
     padding: 0 1em;
     border-radius: 10px;
     border: none;
@@ -54,10 +59,11 @@ body{
   
   
   input{
-    width: 80%;
+    width: 68%;
     height: 40px;
     font-size: 1em;
     margin: 0.2em 0;
+    margin-left: 20px;
     border-radius: 10px;
     border: none;
     background: #cccccc;
@@ -71,13 +77,9 @@ body{
   }
   
   button{
-    width: 50%;
+    width: 40%;
     height: 40px;
-    background-color:#b50027;
-  
-  
-  
-  
+    background-color:#102770;
     color: #cccccc;
     border-radius: 10px;
     border: none;
@@ -85,5 +87,6 @@ body{
     font-size: 1em;
     margin: 0.5em 0;
     font-weight: bold;
+    margin-top: 30px;
   
   }
