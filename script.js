@@ -2,7 +2,7 @@
 
 let select = document.querySelectorAll(".currency")
 let btn = document.getElementById("btn")
-
+let input = document.getElementById("input")
 
 fetch('https://api.frankfurter.app/currencies')
 .then(res=>res.json())
